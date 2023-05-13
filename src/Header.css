@@ -1,0 +1,16 @@
+div .container strong {
+    color: #ce5641;
+}
+
+div .container strong .N {
+    color: #ffa502;
+    text-shadow: 1.5px 0.5px 5px #f6e58d;
+    transition: 0.6s ease-in-out;
+}
+
+#img{
+    transition: 0.7s ease-in;
+}
+#img:hover{
+transform: rotate(360deg);
+}

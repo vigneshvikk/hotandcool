@@ -1,0 +1,18 @@
+#c1{
+    transition: .5s ease-in-out;
+  
+}
+#c1:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px 2.5px white;
+ 
+}
+#title{
+    color: #2ed573;
+    font-style: italic;
+    font-weight: 800;
+    text-shadow: 1.5px 1px 5px rgb(243, 200, 91) ;
+}
+#l1{
+    text-decoration: none;
+}

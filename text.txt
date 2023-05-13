@@ -1,0 +1,111 @@
+React
+------
+react is a frontend library of javascript
+----------------------------------------------------------------
+Angular                                               React
+----------------------------------------------------------------
+
+-framework                                             -library
+
+-real Dom                                              -virtual Dom
+  -it have phisycal dom strucutre.                        -it dosent have any physical structure it is a virual concept,it doesnt need more memory space,if we edit any one component that component only recompail so it is faster than angular
+  so it need more memory
+  if we edit any one component it will 
+  recompail enteir file.so it is slower than react
+
+-building blocks                                       -bulding blocks of react
+html,css,ts                                              html,css,js
+
+
+Advantages of React
+------------------
+-virual dom (faster,no need memory space for store dom)
+-reusable components (effectively (we can change the behaviour of component and use it))
+-concept of jsx(javascript Xml) - js and html done in a same page that is jsx
+
+installation command
+---------------------
+global installation
+-------------------
+npm i -g create-react-app projectName
+
+
+
+local installation
+------------------
+//node package exicute
+npx create-react-app projectName
+
+
+data sharing
+------------
+parent component to child component
+
+variable--state(use insted of variables)
+
+
+      props ---method()
+      -----
+      technic used to share data from parent component to child component 
+
+      destructuring-method()
+      -------------
+      simillar to props 
+
+Class based React is statefull,but fuction based react is stateless.
+compared to class ,function based is simple but it is stateless
+with the help of hooks it resolve , so further use fuction based
+
+
+hooks
+-----
+hooks are many types
+
+To create statefull ----useState---react library
+
+
+js api
+------
+AjAX
+----
+1.xmlHttps
+2.fetch
+3.async await - we can directly strored in a variable (when we do asynchronous call)
+
+
+hooks
+=====
+useEffect - hook used to all function at starting of components (instead of ngoninit)
+
+
+Redirection In React
+--------------------
+react-router-dom ==library used to Redirection
+1.BrowserRouter--root component selector
+2.Router--for path setting
+3.Routes--if we use more than one path
+
+params
+======
+useparams--hooks used to access params
+
+
+=========
+| REDUX |
+=========
+ 
+  propsDrilling==when increase couping it will due propsDrilling
+    data will stuck in any intermediate component when the component have any issue
+    propsdrilling occur during coupling(may connection between parent and child)
+
+
+To avoid propsdrilling need to reduce coupling and make all component intipendent
+
+so react introduce a state management technology that is REDUX 
+
+a js store file
+
+redux 
+react-redux
+redux-thunk
+
