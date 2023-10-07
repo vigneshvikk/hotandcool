@@ -1,10 +1,10 @@
 div .container strong {
-    color: #ce5641;
+    color:#C7EA46;
 }
 
 div .container strong .N {
-    color: #ffa502;
-    text-shadow: 1.5px 0.5px 5px #f6e58d;
+    color: #ef746f;
+    text-shadow: 1.5px 0.5px 5px #F5B7B1;
     transition: 0.6s ease-in-out;
 }
 
